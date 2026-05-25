@@ -37,13 +37,13 @@ mkdir -p /opt/network-dashboard/public
 cd /opt/network-dashboard
 ```
 
-*   **Option A: Running directly on OpenWrt
+*  **Option A: Running directly on OpenWrt
 ```bash
 opkg update
     opkg install node node-npm
 ```
 
-*   **Option B: Running on Ubuntu/Debian (Proxmox LXC)**
+*  **Option B: Running on Ubuntu/Debian (Proxmox LXC)**
 ```bash
     sudo apt update
     sudo apt install -y nodejs npm
