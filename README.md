@@ -34,3 +34,49 @@ Connect to your device via SSH and create the project structure:
 ```bash
 mkdir -p /opt/network-dashboard/public
 cd /opt/network-dashboard
+
+opkg update
+    opkg install node node-npm
+    ```
+
+*   **Option B: Running on Ubuntu/Debian (Proxmox LXC)**
+```bash
+    sudo apt update
+    sudo apt install -y nodejs npm
+    ```
+
+### 4. Initialize Project & Install Dependencies
+Navigate back to your project root folder, initialize the configuration file (`package.json`), and install the required dependencies:
+
+```bash
+cd /opt/network-dashboard
+
+# Initialize a default package.json
+npm init -y
+
+# Install Express (The web server framework)
+npm install express
+
+# Install Speedtest-Net (The official Ookla Speedtest wrapper)
+npm install speedtest-net
+
+# Install PM2 globally
+npm install -g pm2
+
+# Start your server.js application
+pm2 start server.js --name "network-dashboard"
+
+# Save the process list and enable startup on boot
+pm2 save
+pm2 startup
+
+🌐 Accessing the Dashboard
+Once everything is up and running, open your favorite web browser and navigate to:
+
+http://<YOUR_DEVICE_IP>:3000
+
+Replace <YOUR_DEVICE_IP> with the local IP address of your router or LXC container (e.g., http://192.168.1.1:3000).
+
+📝 License
+This project is open-source and free to use. Feel free to fork it, modify it, and customize it to fit your personal homelab or home network setup.
+
