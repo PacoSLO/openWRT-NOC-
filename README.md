@@ -41,6 +41,17 @@ Connect to your device via SSH and create the project structure:
 mkdir -p /opt/network-dashboard/public
 cd /opt/network-dashboard
 ```
+# 1. Create and paste your backend code
+```bash
+cd /opt/network-dashboard
+nano server.js
+```
+
+# 2. Create and paste your frontend HTML code
+```bash
+cd /opt/network-dashboard/public
+nano index.html
+```
 
 *  **Option A: Running directly on OpenWrt
 ```bash
