@@ -41,25 +41,25 @@ Connect to your device via SSH and create the project structure:
 mkdir -p /opt/network-dashboard/public
 cd /opt/network-dashboard
 ```
-# 1. Create and paste your backend code
+###  1. Create and paste your backend code
 ```bash
 cd /opt/network-dashboard
 nano server.js
 ```
 
-# 2. Create and paste your frontend HTML code
+###  2. Create and paste your frontend HTML code
 ```bash
 cd /opt/network-dashboard/public
 nano index.html
 ```
 
-*  **Option A: Running directly on OpenWrt
+### Option A: Running directly on OpenWrt
 ```bash
 opkg update
     opkg install node node-npm
 ```
 
-*  **Option B: Running on Ubuntu/Debian (Proxmox LXC)**
+### Option B: Running on Ubuntu/Debian (Proxmox LXC)**
 ```bash
     sudo apt update
     sudo apt install -y nodejs npm
