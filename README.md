@@ -35,6 +35,7 @@ Connect to your device via SSH and create the project structure:
 mkdir -p /opt/network-dashboard/public
 cd /opt/network-dashboard
 
+*   **Option A: Running directly on OpenWrt
 opkg update
     opkg install node node-npm
     ```
