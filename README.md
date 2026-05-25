@@ -41,13 +41,13 @@ Connect to your device via SSH and create the project structure:
 mkdir -p /opt/network-dashboard/public
 cd /opt/network-dashboard
 ```
-###  1. Create and paste your backend code
+###  2. Create and paste your backend code
 ```bash
 cd /opt/network-dashboard
 nano server.js
 ```
 
-###  2. Create and paste your frontend HTML code
+###  3. Create and paste your frontend HTML code
 ```bash
 cd /opt/network-dashboard/public
 nano index.html
@@ -89,13 +89,16 @@ pm2 start server.js --name "network-dashboard"
 # Save the process list and enable startup on boot
 pm2 save
 pm2 startup
+```
 
 🌐 Accessing the Dashboard
+```bash
 Once everything is up and running, open your favorite web browser and navigate to:
 
 http://<YOUR_DEVICE_IP>:3000
 
 Replace <YOUR_DEVICE_IP> with the local IP address of your router or LXC container (e.g., http://192.168.1.1:3000).
+```
 
 📝 License
 This project is open-source and free to use. Feel free to fork it, modify it, and customize it to fit your personal homelab or home network setup.
