@@ -1,4 +1,4 @@
-# 🌐 OpenWrt Network Operations Center (NOC) Dashboard
+<img width="1024" height="461" alt="image" src="https://github.com/user-attachments/assets/0b147ca7-c2b9-49ac-bf59-be20f9d2052e" /># 🌐 OpenWrt Network Operations Center (NOC) Dashboard
 
 A lightweight, modern, and responsive web-based dashboard designed to monitor your home network status in real-time. This project is built with minimal resource consumption in mind, making it ideal for running directly on **OpenWrt routers** (such as GL.iNet hardware) or within **Proxmox LXC containers** in a homelab environment.
 
@@ -26,6 +26,11 @@ A lightweight, modern, and responsive web-based dashboard designed to monitor yo
 *   **Backend:** Node.js with the Express framework for lightweight routing and API endpoints.
 
 ---
+
+## 📸 Screenshots
+<p align="center">
+  <img src="https://i.imgur.com/8N4NshT.jpg" alt="OpenWrt NOC Dashboard Preview" width="900">
+</p>
 
 ## 🚀 Quick Start Guide
 
