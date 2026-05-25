@@ -31,20 +31,23 @@ A lightweight, modern, and responsive web-based dashboard designed to monitor yo
 
 ### 1. Prepare the Directories
 Connect to your device via SSH and create the project structure:
+
 ```bash
 mkdir -p /opt/network-dashboard/public
 cd /opt/network-dashboard
+```
 
 *   **Option A: Running directly on OpenWrt
+```bash
 opkg update
     opkg install node node-npm
-    ```
+```
 
 *   **Option B: Running on Ubuntu/Debian (Proxmox LXC)**
 ```bash
     sudo apt update
     sudo apt install -y nodejs npm
-    ```
+```
 
 ### 4. Initialize Project & Install Dependencies
 Navigate back to your project root folder, initialize the configuration file (`package.json`), and install the required dependencies:
