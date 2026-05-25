@@ -29,7 +29,7 @@ A lightweight, modern, and responsive web-based dashboard designed to monitor yo
 
 ## 📸 Screenshots
 <p align="center">
-  <img src="[https://i.imgur.com/8N4NshT.jpg](https://raw.githubusercontent.com/PacoSLO/openWRT-NOC-/refs/heads/main/SCR-20260525-sndd.png)" alt="OpenWrt NOC Dashboard Preview" width="900">
+  <img src="https://raw.githubusercontent.com/PacoSLO/openWRT-NOC-/refs/heads/main/SCR-20260525-sndd.png" alt="OpenWrt NOC Dashboard Preview" width="900">
 </p>
 
 ## 🚀 Quick Start Guide
